@@ -9,4 +9,11 @@
     title="25 Overkooled Library Card"
     content="There will be dragons"
   ></dev-custom-card>
+
+  <ion-button expand="full" (click)="getData()">Load Data</ion-button>
+  <ion-button expand="full" routerLink="/custom">Open Library Page</ion-button>
+  <ion-card *ngIf="user">
+    <img [src]="user.picture.large" />
+    <ion-card-content> {{ user.email }} </ion-card-content>
+  </ion-card>
 </ion-content>
