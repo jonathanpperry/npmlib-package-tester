@@ -1,0 +1,7 @@
+{
+  "name": "devLibraryApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
